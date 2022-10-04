@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-xsadiq-adf",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d5f12eff-6102-4719-bbe6-232d1426cec0",
+		"tenantId": "778f5731-c9ef-4d31-aeb4-7e7eed2c6358"
+	}
+}

@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "covid-reporting-xsadiq-adf"
+		},
+		"ls_ablob_covidreportingxs_connectionString": {
+			"value": ""
+		},
+		"ls_adls_covidreportingxsdl_accountKey": {
+			"value": ""
+		},
+		"ls_adls_covidreportingxsdl_properties_typeProperties_url": {
+			"value": "https://covidreportingxsdl.dfs.core.windows.net/"
+		},
+		"ls_http_opendata_ecdc_europa_eu_properties_typeProperties_url": {
+			"value": "@{linkedService().sourceBaseURL}"
+		},
+		"tr_ingest_population_data_properties_typeProperties_scope": {
+			"value": "/subscriptions/f1bb301e-bc3a-4a11-9105-ff3f95952177/resourceGroups/covid-reporting-rg/providers/Microsoft.Storage/storageAccounts/covidreportingxs"
+		}
+	}
+}
